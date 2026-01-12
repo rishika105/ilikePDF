@@ -1,0 +1,24 @@
+{
+  "name": "pdfm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/index",
+    "build": "tsc -p .",
+    "dev": "tsc-watch --onSuccess \"npm start\""
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "dependencies": {
+    "@types/express": "^5.0.6",
+    "express": "^5.2.1",
+    "init": "^0.1.2",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "tsc-watch": "^7.2.0"
+  }
+}
